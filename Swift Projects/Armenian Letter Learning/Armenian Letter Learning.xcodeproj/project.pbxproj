@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B26CA6912AA6B12200F42109 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = B26CA6902AA6B12200F42109 /* Subsonic */; };
+		B2BAC78C2A89B58D006F81E0 /* LetterRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAC78B2A89B58D006F81E0 /* LetterRandom.swift */; };
+		B2BAC78E2A89C081006F81E0 /* LetterInOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAC78D2A89C081006F81E0 /* LetterInOrder.swift */; };
+		B2CCB82C2A818EC900B1A173 /* Armenian_Letter_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CCB82B2A818EC900B1A173 /* Armenian_Letter_LearningApp.swift */; };
+		B2CCB82E2A818EC900B1A173 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CCB82D2A818EC900B1A173 /* ContentView.swift */; };
+		B2CCB8302A818ECA00B1A173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CCB82F2A818ECA00B1A173 /* Assets.xcassets */; };
+		B2CCB8332A818ECA00B1A173 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CCB8322A818ECA00B1A173 /* Preview Assets.xcassets */; };
+		B2CCB83A2A819C3D00B1A173 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CCB8392A819C3D00B1A173 /* PlaySound.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2BAC78B2A89B58D006F81E0 /* LetterRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterRandom.swift; sourceTree = "<group>"; };
+		B2BAC78D2A89C081006F81E0 /* LetterInOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterInOrder.swift; sourceTree = "<group>"; };
+		B2CCB8282A818EC900B1A173 /* Armenian Letter Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Armenian Letter Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CCB82B2A818EC900B1A173 /* Armenian_Letter_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armenian_Letter_LearningApp.swift; sourceTree = "<group>"; };
+		B2CCB82D2A818EC900B1A173 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2CCB82F2A818ECA00B1A173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2CCB8322A818ECA00B1A173 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2CCB8392A819C3D00B1A173 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2CCB8252A818EC900B1A173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26CA6912AA6B12200F42109 /* Subsonic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2CCB81F2A818EC900B1A173 = {
+			isa = PBXGroup;
+			children = (
+				B2CCB82A2A818EC900B1A173 /* Armenian Letter Learning */,
+				B2CCB8292A818EC900B1A173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2CCB8292A818EC900B1A173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2CCB8282A818EC900B1A173 /* Armenian Letter Learning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2CCB82A2A818EC900B1A173 /* Armenian Letter Learning */ = {
+			isa = PBXGroup;
+			children = (
+				B2CCB82B2A818EC900B1A173 /* Armenian_Letter_LearningApp.swift */,
+				B2CCB82D2A818EC900B1A173 /* ContentView.swift */,
+				B2BAC78D2A89C081006F81E0 /* LetterInOrder.swift */,
+				B2BAC78B2A89B58D006F81E0 /* LetterRandom.swift */,
+				B2CCB8392A819C3D00B1A173 /* PlaySound.swift */,
+				B2CCB82F2A818ECA00B1A173 /* Assets.xcassets */,
+				B2CCB8312A818ECA00B1A173 /* Preview Content */,
+			);
+			path = "Armenian Letter Learning";
+			sourceTree = "<group>";
+		};
+		B2CCB8312A818ECA00B1A173 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2CCB8322A818ECA00B1A173 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2CCB8272A818EC900B1A173 /* Armenian Letter Learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CCB8362A818ECA00B1A173 /* Build configuration list for PBXNativeTarget "Armenian Letter Learning" */;
+			buildPhases = (
+				B2CCB8242A818EC900B1A173 /* Sources */,
+				B2CCB8252A818EC900B1A173 /* Frameworks */,
+				B2CCB8262A818EC900B1A173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Armenian Letter Learning";
+			packageProductDependencies = (
+				B26CA6902AA6B12200F42109 /* Subsonic */,
+			);
+			productName = "Armenian Letter Learning";
+			productReference = B2CCB8282A818EC900B1A173 /* Armenian Letter Learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2CCB8202A818EC900B1A173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B2CCB8272A818EC900B1A173 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B2CCB8232A818EC900B1A173 /* Build configuration list for PBXProject "Armenian Letter Learning" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2CCB81F2A818EC900B1A173;
+			packageReferences = (
+				B26CA68F2AA6B12200F42109 /* XCRemoteSwiftPackageReference "Subsonic" */,
+			);
+			productRefGroup = B2CCB8292A818EC900B1A173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2CCB8272A818EC900B1A173 /* Armenian Letter Learning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2CCB8262A818EC900B1A173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CCB8332A818ECA00B1A173 /* Preview Assets.xcassets in Resources */,
+				B2CCB8302A818ECA00B1A173 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2CCB8242A818EC900B1A173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CCB82E2A818EC900B1A173 /* ContentView.swift in Sources */,
+				B2CCB83A2A819C3D00B1A173 /* PlaySound.swift in Sources */,
+				B2BAC78C2A89B58D006F81E0 /* LetterRandom.swift in Sources */,
+				B2BAC78E2A89C081006F81E0 /* LetterInOrder.swift in Sources */,
+				B2CCB82C2A818EC900B1A173 /* Armenian_Letter_LearningApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2CCB8342A818ECA00B1A173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2CCB8352A818ECA00B1A173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2CCB8372A818ECA00B1A173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Armenian Letter Learning/Preview Content\"";
+				DEVELOPMENT_TEAM = 696XMMJB45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.Armenian-Letter-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2CCB8382A818ECA00B1A173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Armenian Letter Learning/Preview Content\"";
+				DEVELOPMENT_TEAM = 696XMMJB45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.Armenian-Letter-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2CCB8232A818EC900B1A173 /* Build configuration list for PBXProject "Armenian Letter Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CCB8342A818ECA00B1A173 /* Debug */,
+				B2CCB8352A818ECA00B1A173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CCB8362A818ECA00B1A173 /* Build configuration list for PBXNativeTarget "Armenian Letter Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CCB8372A818ECA00B1A173 /* Debug */,
+				B2CCB8382A818ECA00B1A173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B26CA68F2AA6B12200F42109 /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B26CA6902AA6B12200F42109 /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26CA68F2AA6B12200F42109 /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B2CCB8202A818EC900B1A173 /* Project object */;
+}
